@@ -28,13 +28,13 @@ I implemented the adaptive sampling following Baraff and Witkin's notes. Basical
 
 # Video demos
 
-![](/videos/vid1.mp4)
+![](https://github.com/Kauhentus/brown-cs2240-fem/raw/main/videos/vid1.mp4)
 
 
-![](/videos/vid2.mp4)
+![](https://github.com/Kauhentus/brown-cs2240-fem/raw/main/videos/vid2.mp4)
 
 
-![](/videos/vid3.mp4)
+![](https://github.com/Kauhentus/brown-cs2240-fem/raw/main/videos/vid3.mp4)
 
 
-![](/videos/vid4.mp4)
+![](https://github.com/Kauhentus/brown-cs2240-fem/raw/main/videos/vid4.mp4)
