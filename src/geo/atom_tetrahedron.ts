@@ -39,6 +39,7 @@ export class Tetrahedron {
     sigma!: number[];
 
     id: symbol;
+    boundary_map: boolean[] = [false, false, false, false, false, false];
 
     constructor(n1 : Node, n2 : Node, n3 : Node, n4 : Node){
         this.n1 = n1;
@@ -176,10 +177,13 @@ export class Tetrahedron {
             console.log(strain);
         }
 
-        const lambda = 200;
-        const mu = 200;
-        const phi = 1;
-        const psi = 1;
+        // const lambda = 200;
+        // const mu = 200;
+
+        const lambda = 400;
+        const mu = 800;
+        const phi = 5;
+        const psi = 5;
 
         const stress_elastic = add_mat3(
             smul_mat3(I, mat3_trace(strain) * lambda),
@@ -191,5 +195,14 @@ export class Tetrahedron {
         );
         const stress = add_mat3(stress_elastic, stress_viscous);
         this.sigma = mat3_matmul(F, stress);
+    }
+
+    compute_boundary_map(){
+        let boundary = [false, false, false, false, false, false];
+        if(this.neighbor_f142 === undefined){ boundary[3] = true; boundary[5] = true; boundary[0] = true; }
+        if(this.neighbor_f243 === undefined){ boundary[5] = true; boundary[2] = true; boundary[1] = true; }
+        if(this.neighbor_f312 === undefined){ boundary[4] = true; boundary[0] = true; boundary[1] = true; }
+        if(this.neighbor_f413 === undefined){ boundary[3] = true; boundary[4] = true; boundary[2] = true; }
+        this.boundary_map = boundary;
     }
 }

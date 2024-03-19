@@ -223,7 +223,7 @@ export const mat3_applyv = (mat: number[], v: V3) => {
 }
 
 export const mat4_applyv3 = (mat: number[], v: V3, w_one: boolean, homogenize: boolean) => {
-    let r = mat3_vecmul(mat, [v.x, v.y, v.z, w_one ? 1 : 0]);
+    let r = mat4_vecmul(mat, [v.x, v.y, v.z, w_one ? 1 : 0]);
     if(homogenize){
         return new V3(r[0] / r[3], r[1] / r[3], r[2] / r[3]);
     } else {
