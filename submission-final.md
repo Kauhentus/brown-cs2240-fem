@@ -28,13 +28,19 @@ I implemented the adaptive sampling following Baraff and Witkin's notes. Basical
 
 # Video demos
 
-![](https://github.com/Kauhentus/brown-cs2240-fem/raw/main/videos/vid1.mp4)
+https://github.com/Kauhentus/brown-cs2240-fem/assets/42982979/269e8ac3-2ef2-4625-aa11-e9321f49e914
 
 
-![](https://github.com/Kauhentus/brown-cs2240-fem/raw/main/videos/vid2.mp4)
+
+https://github.com/Kauhentus/brown-cs2240-fem/assets/42982979/a03b2d18-258d-411d-b527-d5de967772bf
 
 
-![](https://github.com/Kauhentus/brown-cs2240-fem/raw/main/videos/vid3.mp4)
+
+https://github.com/Kauhentus/brown-cs2240-fem/assets/42982979/2f785535-b358-4401-91aa-35b9115def1b
 
 
-![](https://github.com/Kauhentus/brown-cs2240-fem/raw/main/videos/vid4.mp4)
+
+https://github.com/Kauhentus/brown-cs2240-fem/assets/42982979/98cefd0d-59df-4911-98c5-b76f0d12fbf4
+
+
+
