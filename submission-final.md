@@ -28,13 +28,13 @@ I implemented the adaptive sampling following Baraff and Witkin's notes. Basical
 
 # Video demos
 
-![](./videos/vid1.mp4)
+![](/videos/vid1.mp4)
 
 
-![](./videos/vid2.mp4)
+![](/videos/vid2.mp4)
 
 
-![](./videos/vid3.mp4)
+![](/videos/vid3.mp4)
 
 
-![](./videos/vid4.mp4)
+![](/videos/vid4.mp4)
